@@ -1,2 +1,2 @@
-# DevConnector-theme
-A theme built with Sass (.scss) for DevConnector app
+# DevConnector-THEME/UI
+Theme files built with Sass (.scss) for DevConnector app
