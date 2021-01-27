@@ -30,6 +30,16 @@
   color: $primary-color;
 }
 
+.round-img {
+  border-radius: 50%;
+}
+
+.line {
+  height: 1px;
+  background: #ccc;
+  margin: 1.5rem 0;
+}
+
 // Backgrounds
 .bg {
   &-primary {
@@ -98,6 +108,18 @@
   }
 }
 
+// Table
+.table {
+  th, td {
+    text-align: left;
+    padding: 1rem;
+  }
+
+  th {
+    background-color: $light-color;
+  }
+}
+
 // Alert
 .alert {
   padding: 0.8rem;
@@ -120,6 +142,31 @@
 
   &.alert-success {
     @include set-background($success-color)
+  }
+}
+
+// Badges
+.badge {
+  background-color: $light-color;
+  padding: 0.1rem;
+  margin: 0.3rem;
+  font-size: 0.8rem;
+  text-align: center;
+
+  &.badge-primary {
+    @include set-background($primary-color)
+  }
+
+  &.badge-light {
+    @include set-background($light-color)
+  }
+
+  &.badge-success {
+    @include set-background($success-color)
+  }
+
+  &.badge-dark {
+    @include set-background($dark-color)
   }
 }
 
