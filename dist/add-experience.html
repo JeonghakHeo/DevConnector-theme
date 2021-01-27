@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.min.css">
+  <title>Welcome to DevConnector</title>
+</head>
+<body>
+  <nav class="navbar bg-dark">
+    <h1>
+      <a href="dashboard.html">
+        <i class="fas fa-code"></i> DevConnector
+      </a>
+    </h1>
+    <ul>
+      <li><a href="profiles.html">Developers</a></li>
+      <li><a href="posts.html">Posts</a></li>
+      <li><a href="dashboard.html"><i class="fas fa-user"></i> Dashboard</a></li>
+      <li><a href="index.html"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+    </ul>
+  </nav>
+
+  <section class="container">
+    <h1 class="large text-primary">Add An Experience</h1>
+    <p class="lead">
+      <i class="fas fa-code-branch"></i> Add any developer/programming positions that you have had in the past</p>
+
+    <small>* = required field</small>
+
+    <!-- Form -->
+    <form class="form">
+
+      <div class="form-group">
+        <input type="text" placeholder="* Job Title" required>
+      </div>
+
+      <div class="form-group">
+        <input type="text" placeholder="* Company" required>
+      </div>
+      
+      <div class="form-group">
+        <h4>From Date</h4>
+        <input type="date" name="from">
+      </div>
+
+      <div class="form-group">
+        <p>
+          <input type="checkbox" name="current"> Current Job
+        </p>
+      </div>  
+
+      <div class="form-group">
+        <h4>To Date</h4>
+        <input type="date" name="to">
+      </div>
+
+      <div class="form-group">
+        <textarea name="description" id="" cols="30" rows="3" placeholder="Job Description"></textarea>
+      </div>
+      
+    </form>
+  </section>
+</body>
+</html>
